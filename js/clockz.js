@@ -1,4 +1,3 @@
-
 	var clockz = {
 		
 		animCounter : 0,
