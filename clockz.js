@@ -1,5 +1,5 @@
 
-var clockz = {
+	var clockz = {
 		
 		animCounter : 0,
 		anims : [],	
