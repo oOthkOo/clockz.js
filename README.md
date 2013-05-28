@@ -1,12 +1,23 @@
-clockz.js
-=========
+# [clockz.js](http://htmlpreview.github.io/?https://github.com/oOthkOo/clockz.js/blob/master/clockz.html)
+#### Super-smooth Frame Animation Manager
 
-Frame Animation Manager
+Clockz is a manager for to help you do multiples animations.
 
-<h4>EXAMPLE</h4>
+Usage
+-----
 
-<code>
+Just include this script after jQuery. Requires jQuery 1.4+.
 
+``` html
+<script src='jquery.js'></script>
+<script src='clockz.js'></script>
+```
+
+Example
+-----
+
+``` html
+<script>
 jQuery(function () {
   			
 	console.log( 'jquery: ' + $().jquery );
@@ -152,9 +163,6 @@ jQuery(function () {
 
 	clockz.playAll();        
 });
+</script>
 
-</code>
-
-<h4>DEMO</h4>
-
-[Click to view](http://htmlpreview.github.io/?https://github.com/oOthkOo/clockz.js/blob/master/clockz.html)
+```
