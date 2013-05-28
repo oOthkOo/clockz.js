@@ -23,20 +23,6 @@ jQuery(function () {
 	console.log( 'jquery: ' + $().jquery );
 	console.log( 'clockz: ' + clockz.version );
 
-	var stopped = false;
-
-	$('#stop').click(function(e) {
-		stopped = !stopped;
-		if (stopped) {
-			$(this).html('Play');
-			clockz.stopAll();
-		}
-		else {
-			$(this).html('Stop');
-			clockz.playAll();
-		}
-	});
-
 	var anim1 = {
 		name: 'anim1',
 		loop: true,
@@ -95,46 +81,6 @@ jQuery(function () {
 			}
 		]					
 	};
-
-	var anim3 = {
-		name: 'anim3',
-		loop: true,
-		frames: [
-			{
-				properties: { top: 600 },
-				duration: 5000,
-				easing: 'swing'
-			},
-			{
-				properties: { top: 10 },
-				duration: 5000,
-				easing: 'swing'
-			}
-		]					
-	};
-
-	var anim4 = {
-		name: 'anim4',
-		loop: true,
-		frames: [
-			{
-				properties: { top: 500,	left: 500 },
-				duration: 2000,
-				easing: 'swing'
-			},
-			{
-				type: 'transit',
-				properties: { rotate: '+=30' },
-				duration: 400,
-				easing: 'fast'
-			},
-			{
-				properties: { top: 10, left: 10 },
-				duration: 5000,
-				easing: 'swing'
-			}
-		]					
-	};
 					
 	clockz.playHook = function(node, frame, callback) {
 		
@@ -158,9 +104,6 @@ jQuery(function () {
 
 	clockz.create('#block1', anim1);
 	clockz.create('#block2', anim2);
-	clockz.create('#block3', anim3);
-	clockz.create('#block4', anim4);
-
 	clockz.playAll();        
 });
 </script>
