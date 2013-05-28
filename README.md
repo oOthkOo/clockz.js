@@ -3,7 +3,9 @@ clockz.js
 
 Frame Animation Manager
 
+<h1>EXAMPLE</h1>
 
+<code>
 jQuery(function () {
   			
 				console.log( 'jquery: ' + $().jquery );
@@ -191,9 +193,8 @@ jQuery(function () {
 
 				clockz.playAll();
         
-});
+});</code>
 
-Demo
-=========
+<h1>DEMO</h1>
 
 [Click to view](http://htmlpreview.github.io/?https://github.com/oOthkOo/clockz.js/blob/master/clockz.html)
