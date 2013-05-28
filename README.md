@@ -18,7 +18,7 @@ Example
 
 ``` html
 <script>
-jQuery(function () {
+$(function () {
   			
 	console.log( 'jquery: ' + $().jquery );
 	console.log( 'clockz: ' + clockz.version );
