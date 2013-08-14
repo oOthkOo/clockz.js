@@ -6,8 +6,8 @@ Usage
 Just include this script after jQuery. Requires jQuery 1.4+.
 
 ``` html
-<script src='jquery.js'></script>
-<script src='clockz.js'></script>
+<script src='js/jquery.js'></script>
+<script src='js/clockz.js'></script>
 ```
 
 Example
