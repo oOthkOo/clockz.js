@@ -1,4 +1,4 @@
-# [clockz.js](http://oOthkOo.github.io/clockz.js)
+# Clockz.js - [Demo](http://oOthkOo.github.io/clockz.js)
 #### Super-smooth Frame Animation Manager
 
 Clockz is a manager to help you do multiples animations.
