@@ -1,4 +1,6 @@
 # Clockz.js - <a href="http://oOthkOo.github.io/clockz.js" target="_blank">Demo</a>
+[![SlugBay Badge](https://www.slugbay.com/pictures/badges/slugbay-simple.svg)](https://www.slugbay.com)
+
 Clockz is a Super-smooth Frame Animation manager to help you manage multiples animations in same time.
 Installation
 -----
