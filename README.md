@@ -1,5 +1,5 @@
 # Clockz.js
-![SlugBay Badge](https://www.slugbay.com/pictures/badges/slugbay-simple.svg)](https://www.slugbay.com)
+[![SlugBay Badge](https://www.slugbay.com/pictures/badges/slugbay-simple.svg)](https://www.slugbay.com)
 
 <a href="http://oOthkOo.github.io/clockz.js" target="_blank">Demo</a>
 ![Screenshot](https://raw.githubusercontent.com/oOthkOo/clockz.js/master/screenshots/clockz-001.png)
