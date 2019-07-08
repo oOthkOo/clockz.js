@@ -1,12 +1,15 @@
-# Clockz.js - <a href="http://oOthkOo.github.io/clockz.js" target="_blank">Demo</a>
-[![SlugBay Badge](https://www.slugbay.com/pictures/badges/slugbay-simple.svg)](https://www.slugbay.com)
+# Clockz.js
+![SlugBay Badge](https://www.slugbay.com/pictures/badges/slugbay-simple.svg)](https://www.slugbay.com)
+
+<a href="http://oOthkOo.github.io/clockz.js" target="_blank">Demo</a>
+![Screenshot](https://raw.githubusercontent.com/oOthkOo/gcm/master/screenshots/gcm-001.png)
 
 Clockz is a Super-smooth Frame Animation manager to help you manage multiples animations in same time.
 Installation
 -----
 Just include this script after jQuery. Requires jQuery 1.4+.
 
-``` html
+```javascript
 <script src='js/jquery.js'></script>
 <script src='js/clockz.js'></script>
 ```
@@ -14,14 +17,14 @@ Animation
 -----
 This is how you can define a complex animation.
 
-``` html
+```javascript
 var myAnim = {
 	name: 'phone2',				// Animation name
 	loop: true,					// looping ? (default: false)
 	loopStart: 0,				// loop start frame index (default: 0)
 	loopEnd: 3,					// loop end frame index
 	frames: [
-		{ 
+		{
 			duration: 2000		// Frame duration, used without properties to pause
 		},
 		{
@@ -34,13 +37,12 @@ var myAnim = {
 		}
 	]					
 };
-
 ```
 Hook
 -----
 With a hook function, you can manage multiples animation frameworks like jQuery, Transit, Greensock and much mores.
 
-``` html
+```javascript
 clockz.playHook = function(node, frame, callback) {
 	var duration = frame.duration || 400;
 	var properties = frame.properties || null;			
@@ -75,19 +77,17 @@ clockz.playHook = function(node, frame, callback) {
 		setTimeout(callback, duration); // to pause animation when no frame properties found
 	}               
 };
-
 ```
 Usage
 -----
 This is a complete example to see Clockz in action ;-)
 
-``` html
-<script>
+```javascript
 $(function () {
-  			
+
 	// create a new clockz manager
 	var clockz = new Clockz();
-	
+
 	console.log( 'jquery: ' + $().jquery );
 	console.log( 'clockz: ' + clockz.version );
 
@@ -149,8 +149,8 @@ $(function () {
 			}
 		]					
 	};
-	
-	// redefine a clockz hook function to manage 
+
+	// redefine a clockz hook function to manage
 	// jQuery, Transit and Greensock animation frameworks				
 	clockz.playHook = function(node, frame, callback) {
 		var duration = frame.duration || 400;
@@ -191,6 +191,4 @@ $(function () {
 	clockz.create('#block2', anim2);	// link an anim2 with #block2
 	clockz.playAll();					// play all animations
 });
-</script>
-
 ```
