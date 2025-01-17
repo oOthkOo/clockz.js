@@ -1,9 +1,9 @@
 # Clockz.js [(demo)](https://oothkoo.github.io/clockz.js)
-[![SlugBay Badge](https://www.slugbay.com/pictures/badges/slugbay-simple.svg)](https://www.slugbay.com)
 
-![Screenshot](https://raw.githubusercontent.com/oOthkOo/clockz.js/master/screenshots/clockz-001.png)
+![Screenshot](https://raw.githubusercontent.com/oOthkOo/clockz.js/master/screenshots/clockz.gif)
 
 Clockz is a Super-smooth Frame Animation manager to help you manage multiples animations in same time.
+
 Installation
 -----
 Just include this script after jQuery. Requires jQuery 1.4+.
@@ -199,5 +199,7 @@ Donations
 
 Coins | Symbols | Addresses
 --- | --- | ---
-<img src="https://github.com/oOthkOo/hyper-manager/blob/main/pictures/btc.svg" alt="Bitcoin"/> | BTC | 3B52fbzNFQTaKZxWf5GrCUsASD2UP8na4A
-<img src="https://github.com/oOthkOo/hyper-manager/blob/main/pictures/eth.svg" alt="Ethereum"/> | ETH | 0x1C389f1f85Cdb3C2996b83fAc87E496A80698B7C
+<img width="32" src="https://github.com/oOthkOo/hyper-manager/blob/main/pictures/btc.svg" alt="Bitcoin"/> | BTC | 3B52fbzNFQTaKZxWf5GrCUsASD2UP8na4A
+<img width="32" src="https://github.com/oOthkOo/hyper-manager/blob/main/pictures/eth.svg" alt="Ethereum"/> | ETH | 0x1C389f1f85Cdb3C2996b83fAc87E496A80698B7C
+<img width="32" src="https://github.com/oOthkOo/hyper-manager/blob/main/pictures/sol.svg" alt="Solana"/> | SOL | F14pWhGjGLcCF8RMk4JhbK2kD49iBBwa9KFygRJo54Fm
+
